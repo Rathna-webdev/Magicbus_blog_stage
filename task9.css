@@ -1,0 +1,29 @@
+div{
+    border: 4px inset rgb(6, 65, 183);
+    
+}
+.parent{
+    background-color: rgb(221, 49, 247);
+    height: 100%;
+    margin: inherit;
+}
+.child1{
+    background-color: rgb(221, 49, 247);
+    height: 400px;
+    margin: 40px 550px 40px 40px;
+}
+.child2{
+    background-color: rgb(221, 49, 247);
+    height: 300px;
+    margin: 40px;
+}
+.child3{
+    background-color: rgb(221, 49, 247);
+    height: 200px;
+    margin: 40px;
+}
+.child4{
+    background-color: rgb(221, 49, 247);
+    height: 100px;
+    margin: 40px;
+}
