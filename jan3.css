@@ -1,0 +1,66 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: #333;
+}
+ a{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(34, 126, 61);
+    background-color: transparent;
+    text-decoration: overline underline;
+  }
+  
+  
+li{
+    display: inline;
+    padding-right: 30px;
+}
+body{
+   justify-items: center;
+   background-image: url(3d-traingle-background-vivid-colors_23-2148410160.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+}
+.box1{
+    color: white;
+    background: linear-gradient(135deg, rgb(84, 227, 48), rgba(185, 238, 26, 0.868));
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    top: 75px;
+    left: 175px;
+}
+
+.box2{
+    color: white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 250px;
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255,0.18);
+    border-radius: 50px;
+    position: relative;
+}
+.box3{
+    color: white;
+    background: linear-gradient(200deg,  rgba(185, 238, 26, 0.868), rgb(84, 227, 48));
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    right: 50px;
+    bottom: 75px;
+}
